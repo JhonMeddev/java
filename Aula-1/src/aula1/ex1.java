@@ -17,9 +17,9 @@ public class ex1 {
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("CALCULADORA IMC");
-		System.out.println("Qual seu peso ?");
+		System.out.println("Qual seu peso ? ");
 		int peso = input.nextInt();
-		System.out.println("Qual sua altura ?");
+		System.out.println("Qual sua altura ? ");
 		double altura = input.nextDouble();
 		
 		double imc = peso / (altura * altura);
