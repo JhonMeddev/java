@@ -13,9 +13,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Avaliacao julia = new Avaliacao(7,4,10);
-
-        System.out.println("Média Aritmetica : " + julia.mediaAritmetica());
-        System.out.println("Média Ponderada : " + julia.mediaPonderada());
+    	Aluno a1 = new Aluno("Mario", "Encanador", new Avaliacao(9, 10, 3));
+    	Aluno a2 = new Aluno("Luigi", "Encanador", new Avaliacao(4, 1, 10));
+    	
+    	a1.info();
+    	a2.info();
     }
 }
