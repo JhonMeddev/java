@@ -7,6 +7,6 @@ public class Main {
 		Livro l1 = new Livro();
 		
 		LivroDigital l2 = new LivroDigital();
-		l2.autores
+		
 	}
 }
